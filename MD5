@@ -1,7 +1,11 @@
-ac9aa2b5085a6e59dac4e460e3b4d4af *DESCRIPTION
-cc9ec8ca4742feddc614790c56c32fca *NAMESPACE
-63d289cf333792b74616bd9ef59fd21b *R/TGBot.R
-7d1a866596f7c1056cb014d2f4bc0023 *R/telegram-package.r
-1bfb348e5fcc432070c33ccef02e03b8 *README.md
-3bb2a1842c9eb1671d39176fbb125558 *man/TGBot.Rd
+f2dfe059cfe84b38158571b9636d6321 *DESCRIPTION
+57cdbd18ef3752c64488151422f2af6a *NAMESPACE
+ee00fef9f0e7f1a9aba2525cdf1c511f *R/TGBot.R
+abbfe8ecf7e4465279fb597a33f5cf6e *R/telegram-package.r
+e4f06dc87be75c0f19f691e16a82485e *README.md
+147d2560e4198cb0603faccb996391af *inst/audio_test.mp3
+4693f9f602b312f6d4f1d46ab2c97c79 *inst/r_logo.webp
+dfe23f54bba92c79e417dcaee966c5f3 *inst/voice_test.ogg
+9ddee85f33f5081adb1d96faa6488960 *man/TGBot.Rd
+17014caf432a4feb8e6334201afe5cbb *man/bot_token.Rd
 e2def0d0af7514458abf966db39ad35b *man/telegram.Rd
