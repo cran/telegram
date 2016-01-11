@@ -11,6 +11,8 @@
 #' @importFrom httr POST
 #' @importFrom httr content
 #' @importFrom httr warn_for_status
-#' @importFrom httr status_code
 #' @importFrom httr upload_file
+#' @importFrom jsonlite fromJSON
+#' @importFrom curl curl_download
+#' @importFrom utils menu
 NULL
