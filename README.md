@@ -80,6 +80,17 @@ bot$getUpdates()
 bot$set_default_chat_id(123456789)
 ```
 
+After a bit using the package, you'll probably want to set the
+`chat_id` to your user id (or more generally, have something like an
+addressbook to store users' ids). If you put this in your `.Renviron`:
+```bash
+R_TELEGRAM_USER_me=123456789
+```
+you'll be able to use the `user_id` function, eg like this:
+```r
+bot$set_default_chat_id(user_id('me'))
+```
+
 ## Examples of methods currently implemented
 Once you've followed the previous section, run the following commands
 and look at your phone.
@@ -133,7 +144,7 @@ saveVideo({
     x <- c()
     for (i in 1:nmax){
         x <- c(x, rnorm(1))
-        plot(cumsum(x), lty = 2, xlim = c(1, nmax), ylim = c(-5,5))
+        plot(cumsum(x), lty = 2, xlim = c(1, nmax), ylim = c(-5, 5))
         abline(h = 0, col = 'red')
     }
 }, video.name = 'animation.mp4')
@@ -147,11 +158,12 @@ bot$sendAudio(system.file('audio_test.mp3', package = 'telegram'),
 bot$sendVoice(system.file('voice_test.ogg', package = 'telegram'))
 
 ## getUserProfilePhotos
-bot$getUserProfilePhotos(162174388) #<- message.from.id variable in getUpdates
-bot$getUserProfilePhotos(162174388, destfile = 'me.png')
+bot$getUserProfilePhotos(user_id('me')) # <- alternatively, message.from.id variable in getUpdates
+bot$getUserProfilePhotos(user_id('me'), destfile = 'me.png')
 
 # getFile
-bot$getFile('AgADBAADqacxG7SVqgnMb9t6Szxd4SpKpjAABBuyfWqwtle-UdYAAgI',
+bot$getFile('asdasdasdqweqweqwe-UdYAAgI', # <- file_id from getUserProfilePhotos
             'me_small.png')
+
 
 ```
