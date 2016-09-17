@@ -1,7 +1,7 @@
 Package: telegram
 Title: R Wrapper Around the Telegram Bot API
-Version: 0.5.0
-Authors@R: person("Luca", "Braglia", email = "lbraglia@mailbox.org", role = c("aut", "cre"))
+Version: 0.6.0
+Authors@R: person("Luca", "Braglia", email = "lbraglia@gmail.com", role = c("aut", "cre"))
 Description: R wrapper around the Telegram Bot API (http://core.telegram.org/bots/api) to access Telegram's messaging facilities with ease (e.g. you send messages, images, files from R to your smartphone).
 URL: http://github.com/lbraglia/telegram
 BugReports: http://github.com/lbraglia/telegram/issues
@@ -11,8 +11,8 @@ License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-02-15 09:56:16 UTC; l
+Packaged: 2016-09-17 08:37:14 UTC; l
 Author: Luca Braglia [aut, cre]
-Maintainer: Luca Braglia <lbraglia@mailbox.org>
+Maintainer: Luca Braglia <lbraglia@gmail.com>
 Repository: CRAN
-Date/Publication: 2016-02-15 14:24:26
+Date/Publication: 2016-09-17 18:03:40

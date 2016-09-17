@@ -1,9 +1,9 @@
-9e3453c6d1ac042bbe63bab3491b6f08 *DESCRIPTION
+1462b16f224c2da1655ed9755661e3d4 *DESCRIPTION
 91f00aa746c6df6b8596cf486bfaaea2 *NAMESPACE
-f977dd44d11fc336e1c39eaf6cdf8ad5 *R/TGBot.R
+cffb5d08ee5cc33e42db80c98337d23b *R/TGBot.R
 deb7b7dcc9af24e66647636cc5c68e60 *R/get_telegram_envvar.R
 03d1d686eaca0bc23a79408bb4484100 *R/telegram_package.R
-942bbade1bdbfbacad377d2838fcd815 *README.md
+24900198282ba45b952496caa9473604 *README.md
 147d2560e4198cb0603faccb996391af *inst/audio_test.mp3
 4693f9f602b312f6d4f1d46ab2c97c79 *inst/r_logo.webp
 dfe23f54bba92c79e417dcaee966c5f3 *inst/voice_test.ogg
@@ -12,7 +12,7 @@ c4fa8f609e044cbefd919637d646f85b *man/bot_token.Rd
 a3b0694796a85274be7f1d2bdcc6864d *man/forwardMessage.Rd
 8bac96d6fff649c40d8296340c14dea7 *man/getFile.Rd
 489ed209af517837df7e8c5da774b662 *man/getMe.Rd
-1e0e519f1a191d7e4228e50c18a49007 *man/getUpdates.Rd
+3a1385abadc113b367f19841f6536ecd *man/getUpdates.Rd
 6f6aa1a9c42281a958cf3dc8020c7719 *man/getUserProfilePhotos.Rd
 1d5dff8489dcd2303e434326be496630 *man/sendAudio.Rd
 e1eb6d1b2860e3271701e0a0512be82e *man/sendDocument.Rd
